@@ -4,14 +4,16 @@ body{
 }
 
 #headingone{
-    color:grey;
+    color:black;
     opacity: 0.8;
     font-size: 35px;
+    margin-left: 30px;
 }
 
 #headingtwo{
     color: #00A5EC;
     font-size: 35px;
+   
     
 }
 
@@ -21,6 +23,7 @@ body{
     width:100%;
     height:13%;
     display: flex;
+    
  
 }
 
@@ -88,7 +91,8 @@ body{
 }
 
 .first-card:hover{
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px  grey;
+
 }
 
 .second-card:hover{
@@ -134,4 +138,120 @@ body{
     background-color: #FFFFFF;
     justify-content: space-evenly;
 
+}
+
+/*  */
+/*  */
+/* SECOND PAGE DESIGN */
+.noshow-blur{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+
+
+.popupbutton{
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 5%;
+    background-color: white;
+    width: 35%;
+    height: 35%;
+    margin-left: 30%;
+    margin-bottom:30%;
+    margin-top: -40%;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#headingtop{
+    color: #00A5EC;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.boxsizing{
+    width: 75%;
+    height: 15%;
+    border-radius: 5%;
+    background-color:#7B7B7B29;
+    box-shadow: 1px 1px grey;
+
+}
+   
+.buttondesign{
+    margin-top: 40px;
+    margin-left: 280px;
+    border-radius: 5%;
+    width: 140px;
+    height:42px;
+    background-color: #00A5EC;
+    border: 1px solid #00A5EC ;
+
+}
+
+#fonttask{
+    font-size: 20px;
+    color: white;
+}
+
+/* .xmark{
+    margin-left:90%;
+    margin-top:100%;
+} */
+
+ /* THIRD PAGE DESIGN */
+.sixthcard{
+    border: 1.5px solid white;
+    width: 450px;
+    height: 320px;
+    background-color: white;
+    margin: 0% 0% 0% 28%;
+    border-radius: 5%;
+    
+}
+
+.sixthcard:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.addtaskone{
+    margin-left: 25%;
+    font-size: 25px;
+    display: inline-block;
+
+
+}
+
+.addtasktwo{
+    margin-left:15%;
+    display: inline-block;
+    font-size: 25px;
+}
+
+
+.seventhcard{
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 5%;
+    background-color: white;
+    width: 35%;
+    height: 35%;
+    margin-left: 30%;
+    margin-bottom:30%;
+    margin-top: -40%;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.popupbuttonone{
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 5%;
+    background-color: white;
+    width: 35%;
+    height: 35%;
+    margin-left: 28%;
+    margin-bottom:30%;
+    margin-top: -25%;
+    box-shadow: 2px 2px 2px grey;
 }
