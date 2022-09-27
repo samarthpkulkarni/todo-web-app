@@ -152,6 +152,7 @@ body{
 
 .popupbutton{
     position: absolute;
+    /* display: inline; */
     border: 1px solid grey;
     border-radius: 5%;
     background-color: white;
@@ -195,10 +196,12 @@ body{
     color: white;
 }
 
-/* .xmark{
-    margin-left:90%;
-    margin-top:100%;
-} */
+.xmark{
+   position: absolute;
+   margin-left: 30%;
+
+}
+
 
  /* THIRD PAGE DESIGN */
 .sixthcard{
